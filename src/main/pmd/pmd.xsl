@@ -14,7 +14,7 @@ doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" />
 	<xsl:value-of select="substring-before(//pmd/@timestamp, 'T')"/> - <xsl:value-of select="substring-before(substring-after(//pmd/@timestamp, 'T'), '.')"/>
 </xsl:template>
 
-
+#something
 
 <xsl:template match="pmd">
 	<!--** Process root node pmd : html header, style, call templates -->
